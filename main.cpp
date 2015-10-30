@@ -17,8 +17,7 @@ std::vector<BPatch_function *> findEntryPoint(BPatch_addressSpace *app) {
     std::vector<BPatch_point *> *points;
     BPatch_image *appImage = app->getImage();
     appImage->getProcedures(functions);
-    //appImage->findFunction("InterestingProcedure", functions);
-    //points = functions[0]->findPoint(BPatch_entry);
+
 
     return functions;
 }
