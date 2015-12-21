@@ -11,7 +11,7 @@ std::vector<BPatch_function *> printfFuncs;
 std::set<std::string> visited;
 BPatch_image *appImage;
 BPatch_addressSpace *app;
-const int length = 50;
+const int length = 60;
 
 BPatch_addressSpace *startInstrumenting(const char *name,
                                         const char **argv) { // For create
